@@ -133,6 +133,7 @@ const controlAddRecipe = async function(newRecipe) {
 const newFeature = function() {
   console.log('Welcome to the application');
 };
+
 // showSearchRecipe();
 const init = function() {
   bookmarksView.addHandlerRender(controlBookmarkOnLoad);
