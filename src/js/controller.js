@@ -133,7 +133,7 @@ const controlAddRecipe = async function(newRecipe) {
 const newFeature = function() {
   console.log('Welcome to the application');
 };
-// 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
+// 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
 // showSearchRecipe();
 const init = function() {
   bookmarksView.addHandlerRender(controlBookmarkOnLoad);
