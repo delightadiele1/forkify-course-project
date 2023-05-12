@@ -133,6 +133,8 @@ const controlAddRecipe = async function(newRecipe) {
 const newFeature = function() {
   console.log('Welcome to the application');
 };
+// PAT(personal access token)
+//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
 // showSearchRecipe();
 const init = function() {
   bookmarksView.addHandlerRender(controlBookmarkOnLoad);
