@@ -135,7 +135,7 @@ const newFeature = function() {
 };
 
 // PAT(personal access token)
-//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
+//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
 
 // showSearchRecipe();
 const init = function() {
