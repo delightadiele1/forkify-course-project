@@ -117,13 +117,13 @@ export const deleteBookmark = function(id) {
   persistBookmarks();
 };
 
-const init = function() {
-  const storage = localStorage.getItem('bookmarks');
-  if (storage) state.bookmarks = JSON.parse(storage);
-  //console.log(state.bookmarks);
-};
+// const init = function() {
+//   const storage = localStorage.getItem('bookmarks');
+//   if (storage) state.bookmarks = JSON.parse(storage);
+//   //console.log(state.bookmarks);
+// };
 
-init();
+//init();
 
 const clearBookmarks = function() {
   localStorage.clear('bookmarks');
