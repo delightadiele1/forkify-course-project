@@ -139,6 +139,7 @@ const newFeature = function() {
 
 // showSearchRecipe();
 const init = function() {
+  console.log('welcome');
   bookmarksView.addHandlerRender(controlBookmarkOnLoad);
   recipeView.addHandlerRender(showRecipe);
   recipeView.addHandlerServings(controlServings);

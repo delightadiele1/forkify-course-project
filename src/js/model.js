@@ -2,6 +2,7 @@
 import { API_URL, RESULT_PER_PAGE, API_KEY } from './config.js';
 // import { getJSON, sendJSON } from './helpers.js';
 import { AJAX } from './helpers.js';
+
 import { monitorEventLoopDelay } from 'perf_hooks';
 import resultsView from './views/resultsView.js';
 
