@@ -134,9 +134,6 @@ const newFeature = function() {
   console.log('Welcome to the application');
 };
 
-// PAT(personal access token)
-//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
-
 // showSearchRecipe();
 const init = function() {
   console.log('welcome');
